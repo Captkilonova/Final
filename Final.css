@@ -1,0 +1,362 @@
+div.Icon img{
+  width: 80px; height: 80px;
+
+    }
+    
+
+    div.Title {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+
+
+    div.slideshow{
+      margin-top: 30px;
+      margin-left: 300px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    
+    }
+.slideshow{
+  flex-basis: auto;
+}
+.cycle-slideshow{
+  width: 100%;
+}
+    div.Intro{
+      color: #d3c2da;
+      font-size: 25px;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+
+    .Intro{
+      text-align: center;
+      text-indent: -60px;
+    }
+
+ div.Nav {
+   font-size: 18px; 
+    background-color: #352a3a;
+    border: 5px solid #352a3a;
+    display: block;
+    padding: 12px;
+    }
+    
+ul{
+text-align: center;
+
+}
+
+
+a{
+  color: #d3c2da;
+  text-decoration: none;
+}
+li{
+display: inline-block;
+border: 20px solid #64526b;
+background-color: #64526b;
+width: 150px;
+}
+
+div.Designs{
+  color: #d3c2da;
+      text-align: center; font-size: 20px;
+      border: 5px solid #352a3a;
+      background-color: #64526b;
+}
+
+.Dexample{
+  float: left;
+  width: 22%;
+  length: 22%;
+  padding: 5px;
+  margin-right: 2.2%;
+}
+.Dexamples::after{
+  content:"";
+  clear:both;
+  display: table;
+}
+
+    div.Art{
+      color: #d3c2da;
+      text-align: center; font-size: 20px;
+      border: 5px solid #352a3a;
+      background-color: #64526b;
+    }
+    
+  .Aexample{
+  float: left;
+  width: 22%;
+  length: 22%;
+  padding: 5px;
+  margin-right: 2.2%;
+}
+.Aexamples::after{
+  content:"";
+  clear:both;
+  display: table;
+}
+
+   
+
+
+    div.End {
+      color: #d3c2da;
+      font-size: 15px; text-align: center;
+      border: 5px solid #352a3a;
+      background-color: #64526b;
+    }
+
+    body{
+      background-color: #4f3f56;
+    }
+
+    div.ARTINTRO{
+      color: #d3c2da;
+          text-align: center; font-size: 20px;
+          border: 5px solid #352a3a;
+          background-color: #64526b;
+    }
+    div.DESINTRO{
+      color: #d3c2da;
+          text-align: center; font-size: 20px;
+          border: 5px solid #352a3a;
+          background-color: #64526b;
+    }
+
+    .Test{
+      border: #352a3a;
+      float: left;
+      width: 22%;
+      length: 22%;
+      padding: 5px;
+      margin-right: 2.2%;
+    }
+    .Test::after{
+      content:"";
+      clear:both;
+      display: table;
+    }
+    .Designexample{
+      float: left;
+      width: 22%;
+      length: 22%;
+      padding: 5px;
+      margin-right: 2.2%;
+    }
+    .Designexamples::after{
+      content:"";
+      clear:both;
+      display: table;
+    }
+
+    div.Status {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+
+
+    div.ArtPrices{
+      color: #d3c2da;
+          text-align: center; font-size: 20px;
+          border: 5px solid #352a3a;
+          background-color: #64526b;
+    }
+
+    
+    div.DesignPrices{
+      color: #d3c2da;
+          text-align: center; font-size: 20px;
+          border: 5px solid #352a3a;
+          background-color: #64526b;
+    }
+    
+    div.Termsofservice {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+
+    div.ArtTOS {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+
+    div.DesignsTOS {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+    div.Warning {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+
+    div.Contacthere {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+    div.contact {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+    div.Information {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+
+    div.IntroMe {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+    div.Aboutmyself {
+      color: #d3c2da;
+      text-align: center;
+      background-color: #64526b;
+      border: 5px solid #352a3a;
+    }
+
+    @media screen and (max-width: 700px) {
+div.Intro{
+  font-size: 15px;
+}
+.Title{
+  font-size: 12px;
+}
+.Status{
+  font-size: 10px;
+}
+
+.Termsofservice{
+  font-size: 10px;
+}
+
+.ArtTOS{
+  font-size: 12px;
+}
+.DesignsTOS{
+  font-size: 12px;
+}
+
+.Contacthere{
+font-size: 12px;
+}
+.contact{
+font-size: 12px;
+}
+.Information{
+font-size: 12px;
+}
+.IntroMe{
+  font-size: 12px;
+}
+.Aboutmyself{
+  font-size: 12px;
+}
+Div.End{
+font-size: 12px;
+}
+    }
+
+
+
+
+    @media screen and (max-width: 400px) {
+      div.Intro{
+        font-size: 10px;
+      }
+      .Title{
+        font-size: 8px;
+      }
+      .Status{
+        font-size: 8px;
+      }
+      .Termsofservice{
+        font-size: 8px;
+      }
+      .ArtTOS{
+        font-size: 10px;
+      }
+.DesignsTOS{
+  font-size: 10px;
+}
+.Contacthere{
+  font-size: 10px;
+  }
+  .contact{
+  font-size: 10px;
+  }
+  .Information{
+  font-size: 10px;
+  }
+  .Aboutmyself{
+    font-size: 10px;
+  }
+.IntroMe{
+  font-size: 8px;
+}
+  Div.End{
+  font-size: 10px;
+  }
+          }
+
+          @media screen and (max-width: 200px) {
+            div.Intro{
+              font-size: 8px;
+            }
+            .Title{
+              font-size: 6px;
+            }
+            .Status{
+              font-size: 6px;
+            }
+            .Termsofservice{
+              font-size: 6px;
+            }
+            .ArtTOS{
+              font-size: 8px;
+            }
+      .DesignsTOS{
+        font-size: 8px;
+      }
+      .Contacthere{
+        font-size: 8px;
+        }
+        .contact{
+        font-size: 8px;
+        }
+        .Information{
+        font-size: 8px;
+        }
+        .Aboutmyself{
+          font-size: 10px;
+        }
+      .IntroMe{
+        font-size: 6px;
+      }
+        Div.End{
+        font-size: 8px;
+        }
+                }
